@@ -1,0 +1,201 @@
+body
+{
+overflow-x:hidden;
+width:100%;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+background:#eee;
+min-height:550px;
+background-attachment:fixed;
+}
+.bg
+{
+min-height:540px;
+}
+.bg1
+{
+background:url(../image/bg.jpg);
+min-height:535px;
+}
+
+@font-face {
+   font-family: 'typo';
+    src: url('../fonts/typo.ttf');
+	}
+
+@font-face {
+   font-family: 'gothic';
+    src: url('../fonts/gothics.ttf');
+	}
+
+.panel{
+border-color:#eee;
+margin:40px;
+padding:20px;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.panel1{
+border-color:#eee;
+
+margin-top:15px;
+background-color:rgba(255,255,255,0.7);
+margin-left:20px;
+margin-right:20px;
+margin-bottom:05px;
+padding-left:20px;
+padding-right:20px;
+padding-top:05px;
+padding-bottom:5px;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.panel2{
+height:175px;
+border-color:#eee;
+background-color: rgba(255,255,255,0.7);
+margin-top:5px;
+margin-left:20px;
+margin-right:20px;
+margin-bottom:10px;
+padding-left:20px;
+padding-right:20px;
+padding-top:10px;
+padding-bottom:10px;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+overflow: scroll;
+}
+
+.title
+{
+font-family:'typo';
+}
+
+.header
+{
+background:#202020;
+height:70px;
+}
+.logo
+{
+font-family:'typo';
+font-size:35px;
+color:#fff;
+margin:15px;
+}
+
+
+.title1{
+font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+.title2{
+font-family: 'Ubuntu', sans-serif;
+font-size:20px;
+}
+
+
+.sub1
+{
+width:90px;
+color:#202020;
+background:orange;
+font-size:15px;
+height:35px;
+margin:20px;
+padding:10px;
+width:100px;
+}
+
+
+.sub
+{
+width:100%;
+background-color:#9acd32;
+font-size:20px;
+color:red;
+padding:2px;
+margin-top:15px;
+margin-right:20px;
+}
+.sub:hover
+{
+color:#fff;
+}
+
+.footer
+{
+height:30px;
+padding:0px;
+font-size:15px;
+text-align:center;
+border-top:0px solid;
+border-color:#323232;
+background-color:#202020;
+}
+.footer a
+{
+margin:25px;
+color:orange;
+text-decoration:none;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+
+}
+.footer a:hover
+{
+text-decoration:none;
+color:#9acd32;
+border-top:2px solid;
+border-color:orange;
+
+}
+
+.back{
+background-image:url("https://chainimage.com/images/hd-wallpapers-1080p-full-hd-widescreen-desktop-wallpapers-1920x1200-2.jpg");
+height: 100%;
+/*background-image:url("green.jpg");*/
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.box
+{
+padding:9px;
+}
+hr{
+color:#000000;
+}
+.top
+{
+margin-top:20px;
+}
+.log1
+{
+font: 15px 'Ubuntu', sans-serif;
+color:orange;
+margin-left:10px;
+}
+
+.image{
+height:45px;
+width:45px;
+padding-right:8px;
+}
+
+.log
+{
+margin:10px;
+margin-right:60px;
+margin-left:5px;
+color:orange;
+text-decoration:none;
+font-size:20px;
+font-size:15px;
+}
+.log:hover
+{
+color:#9acd32;
+border-top:2px solid;
+border-color:orange;
+text-decoration:none;
+}
